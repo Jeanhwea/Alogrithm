@@ -18,7 +18,7 @@ public:
                 }
             }
             ret = next;
-            next = "";
+            next.clear();
         }
         return ret;
     }
